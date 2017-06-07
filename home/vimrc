@@ -1,0 +1,63 @@
+"""""""""""""""""""""""""""""""
+" => General Configuration <= "
+"""""""""""""""""""""""""""""""
+
+" When a file is edited, its plugin file is loaded.
+"
+filetype plugin on
+
+" When a file is edited, its indent file is loaded.
+"
+filetype indent on
+
+"""""""""""""""""""""""""""
+" =>  UI Configuration <= "
+"""""""""""""""""""""""""""
+
+" Show line numbers
+"
+set number
+
+" Always show current position
+"
+set ruler
+
+" Show command in the last line of the screen.
+"
+set showcmd
+
+" Always show the status line.
+" 
+set laststatus=2
+
+" Format the status line
+" Path to the file and filetype
+set statusline=File\:\ %f\ as\ %y\ 
+" Separator
+set statusline+=\|\ 
+" Line and column number
+set statusline+=Line\:\ %l\/%L\ Column\:\ %c\ 
+" Separator
+set statusline+=\|\ 
+" Buffer number
+set statusline+=Buffer\:%n\ 
+
+" Highlight the screen line of the cursor with cursorline.
+"
+set cursorline
+
+" The screen will not be redrawn while executing macros, register,
+" and other commands that have not been typed.
+"
+set lazyredraw
+
+" => Spaces and Tabs
+
+" Number of spaces that a Tab in the file counts for.
+"
+set tabstop=4
+
+" Do not expand a Tab into spaces.
+"
+set noexpandtab
+

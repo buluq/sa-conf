@@ -1,0 +1,5 @@
+*.swp
+
+/nginx/vhosts.d/*
+!/nginx/vhosts.d/00-default.conf
+
